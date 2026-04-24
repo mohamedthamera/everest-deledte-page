@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>حذف حساب المستخدم - Everest App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>حذف حساب المستخدم</h1>
+
+    <p class="intro">
+      يتيح لك تطبيق Everest التحكم الكامل في بياناتك. يمكنك طلب حذف حسابك في أي وقت.
+    </p>
+
+    <div class="card">
+      <h2>الحذف من التطبيق</h2>
+      <p>
+        افتح التطبيق ← انتقل إلى الإعدادات ← اضغط على "حذف الحساب"
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>طلب عبر البريد الإلكتروني</h2>
+      <p>إذا لم تتمكن من الوصول إلى حسابك، تواصل معنا:</p>
+      <a href="mailto:donenk9900@gmail.com" class="btn">
+        donenk9900@gmail.com
+      </a>
+    </div>
+
+    <div class="card">
+      <h2>حذف البيانات</h2>
+      <p>
+        سيتم حذف جميع البيانات الشخصية بما في ذلك تفاصيل الحساب والمحتوى المخزن بشكل نهائي.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>مدة المعالجة</h2>
+      <p>يتم معالجة الطلبات خلال 7 أيام.</p>
+    </div>
+
+    <div class="card">
+      <h2>إرسال طلب حذف بيانات المستخدم</h2>
+      <form action="mailto:donenk9900@gmail.com" method="post" enctype="text/plain">
+        <div class="form-group">
+          <label for="name">الاسم:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">البريد الإلكتروني:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">الرسالة:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        
+        <button type="submit" class="btn submit-btn">إرسال</button>
+      </form>
+    </div>
+
+    <footer>
+      © 2026 Everest App
+    </footer>
+  </div>
+
+</body>
+</html>
